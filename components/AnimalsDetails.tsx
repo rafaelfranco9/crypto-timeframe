@@ -5,8 +5,8 @@ const AnimalsDetails = ({ animals,title }: { animals: AnimalProps[],title:string
     <section id={title} className="p-4">
       <h2 className="text-2xl text-secondary pb-5 text-center md:text-left">{title}</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10 ">
-        {animals.map((animal) => (
-          <div className="flex flex-col items-center">
+        {animals.map((animal,index) => (
+          <div key={index} className="flex flex-col items-center">
             <div className="flex items-center">
               <img
                 src={"/" + animal.type + "_" + animal.level + ".png"}
