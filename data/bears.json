@@ -1,0 +1,32 @@
+[
+    {
+        "type":"BEAR",
+        "level":1,
+        "power":"X2",
+        "priceChange":"1% - 30%"
+    },
+    {
+        "type":"BEAR",
+        "level":2,
+        "power":"X3",
+        "priceChange":"31% - 45%"
+    },
+    {
+        "type":"BEAR",
+        "level":3,
+        "power":"X4",
+        "priceChange":"46% - 60%"
+    },
+    {
+        "type":"BEAR",
+        "level":4,
+        "power":"X5",
+        "priceChange":"61% - 75%"
+    },
+    {
+        "type":"BEAR",
+        "level":5,
+        "power":"X6",
+        "priceChange":">76%"
+    }
+]

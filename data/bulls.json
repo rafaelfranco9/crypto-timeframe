@@ -1,0 +1,32 @@
+[
+    {
+        "type":"BULL",
+        "level":1,
+        "power":"X2",
+        "priceChange":"1% - 50%"
+    },
+    {
+        "type":"BULL",
+        "level":2,
+        "power":"X3",
+        "priceChange":"51% - 120%"
+    },
+    {
+        "type":"BULL",
+        "level":3,
+        "power":"X4",
+        "priceChange":"121% - 199%"
+    },
+    {
+        "type":"BULL",
+        "level":4,
+        "power":"X5",
+        "priceChange":"200% - 399%"
+    },
+    {
+        "type":"BULL",
+        "level":5,
+        "power":"X6",
+        "priceChange":">400%"
+    }
+]
