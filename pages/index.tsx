@@ -1,14 +1,24 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import React from "react";
+import type { NextPage } from "next";
+import About from "../components/About";
+import Nav from "../components/Nav";
+import Welcome from "../components/Welcome";
+import AnimalsDetails, { AnimalProps } from "../components/AnimalsDetails";
+import Value from "../components/Value";
+
 
 const Home: NextPage = () => {
-  return (
-    <div>
-      <h1>Hola Mundo</h1>
-    </div>
-  )
-}
 
-export default Home
+  return (
+    <div className="flex flex-col space-y-5">
+      <Nav />
+      <Welcome />
+      <About />
+      <AnimalsDetails title={'Bulls'} animals={require('../data/bulls.json') as AnimalProps[]} />
+      <AnimalsDetails title={'Bears'} animals={require('../data/bears.json') as AnimalProps[]} />
+      <Value />
+    </div>
+  );
+};
+
+export default Home;
