@@ -14,7 +14,7 @@ const Roadmap = () => {
         </div>
         <div className="flex items-center space-x-2">
             <div className="rounded-full bg-main h-4 w-4" />
-            <span><b>March 1st:</b> Launch of Dogecoin cards</span>
+            <span><b>March 1st:</b> Launch of Dogecoin cards </span>
         </div>
         <div className="flex items-center space-x-2">
             <div className="rounded-full bg-main h-4 w-4" />
