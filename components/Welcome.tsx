@@ -2,7 +2,7 @@ import React from "react";
 
 const Welcome = () => {
   return (
-    <main id="welcome" className="md:flex md:justify-between md:pt-10 pt-5">
+    <main id="welcome" className="md:flex md:justify-between">
       <section className="flex flex-1 flex-col justify-center items:center md:items-start md:items:start md:text-left text-center text-secondary space-y-5">
         <h1 className="xl:text-6xl md:text-5xl text-2xl">Welcome to CryptoTimeFrame</h1>
         <p className="md:text-xl text-base">

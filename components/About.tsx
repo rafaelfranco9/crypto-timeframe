@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="p-4 text-secondary">
+    <section id="about" className="text-secondary">
       <h2 className="text-2xl pb-2">About</h2>
       <p className="text-lg">
         Each <b className="text-main">CryptoTimeframe</b> card represents a price time frame of a specific
