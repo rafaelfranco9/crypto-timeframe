@@ -11,6 +11,9 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
+          <link rel="shortcut icon" href="/favicon.png" />
+          <meta name="description" content="NFT Crypto Time Frame Project"></meta>
+          <title>CryptoTimeFrame</title>
         </Head>
         <body className="font-raleway font-regular bg-background px-10">
           <Main />
